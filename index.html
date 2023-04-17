@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bài 1 : Tính lương</h1>
+    <label for="ngay-lam-viec">Nhập số ngày làm việc:</label>
+    <input type="number" id="ngay-lam-viec">
+    <br><br>
+    <button onclick="tinhLuong()">Tính toán tiền lương</button>
+    <br><br>
+    <label for="tien-luong">Tổng số tiền lương:</label>
+    <input type="text" id="tien-luong" readonly>
+    <hr>
+
+    <h1>Bài 2 : Tính Trung Bình Cộng 5 Số Thực</h1>
+
+    <label for="so-thu-nhat">Số thứ nhất:</label>
+    <input type="number" step="0.01" id="so-thu-nhat">
+    <br><br>
+    <label for="so-thu-hai">Số thứ hai:</label>
+    <input type="number" step="0.01" id="so-thu-hai">
+    <br><br>
+    <label for="so-thu-ba">Số thứ ba:</label>
+    <input type="number" step="0.01" id="so-thu-ba">
+    <br><br>
+    <label for="so-thu-tu">Số thứ tư:</label>
+    <input type="number" step="0.01" id="so-thu-tu">
+    <br><br>
+    <label for="so-thu-nam">Số thứ năm:</label>
+    <input type="number" step="0.01" id="so-thu-nam">
+    <br><br>
+    <button onclick="tinhTrungBinh()">Tính giá trị trung bình</button>
+    <br><br>
+    <p id="ket-qua"></p>
+    <hr>
+
+    <h1>Bài 3 Quy Đổi Tiền </h1>
+    <label for="so-tien-usd">Số tiền USD:</label>
+    <input type="number" step="0.01" id="so-tien-usd">
+    <br><br>
+    <button onclick="quyDoiTien()">Quy đổi tiền</button>
+    <br><br>
+    <p id="ket-qua_$"></p>
+    <hr>
+
+    <h1>Bài 4 CV DT hình CN</h1>
+    <label for="chieu-dai">Chiều dài:</label>
+    <input type="number" id="chieu-dai">
+    <br><br>
+    <label for="chieu-rong">Chiều rộng:</label>
+    <input type="number" id="chieu-rong">
+    <br><br>
+    <button onclick="tinh()">Tính diện tích và chu vi</button>
+    <br><br>
+    <p id="ket-qua_hcn"></p>
+    <hr>
+
+    <h1>Bài 5 Kí số</h1>
+    <label for="so">Nhập số có hai chữ số:</label>
+    <input type="number" id="so" min="10" max="99">
+    <br><br>
+    <button onclick="tinh()">Tính tổng</button>
+    <br><br>
+    <p id="ket-qua_kyso"></p>
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
